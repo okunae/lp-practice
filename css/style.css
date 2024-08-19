@@ -36,17 +36,12 @@ header .row {
   background-image: url('../img/keyvisual/keyvisual.jpg');
   background-size: cover;
   background-position: left top;
-  height: 1000px;
-  position: relative;
 }
 .main-visual-inner {
   margin: 0 auto;
 }
-.title {
-  position: absolute;
-  top: 400px;
-  bottom: 400px;
-  transform: translate(5%, 0%);
+.main-visual-title {
+  padding: 400px 0px;
   text-align: center;
 }
 .main-visual h1 {
@@ -78,7 +73,7 @@ align-items: center;
   width: 250px;
   padding-top: 50px;
 }
-.title2 {
+.main-work-title {
   width: 60%;
   transform: translate(10%, 0%);
 }
@@ -97,11 +92,11 @@ align-items: center;
 .main-skills-inner {
   margin: 0 auto;
 }
-.main-skills .title3 {
+.main-skills-title {
   text-align: center;
   padding: 50px 0px;
-
 }
+
 .main-skills h3 {
 font-size: 40px;
 letter-spacing: 10px;
@@ -149,7 +144,7 @@ letter-spacing: 10px;
   margin: 0 auto;
 }
 
-.title4 h4 {
+.main-select-plan-title h4 {
   font-size: 40px;
   letter-spacing: 10px;
   margin-bottom: 50px;
